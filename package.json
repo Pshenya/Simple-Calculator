@@ -2,12 +2,24 @@
   "name": "simple-calculator",
   "version": "1.0.0",
   "private": true,
-  "homepage": "",
-  "description": "Simple calculator to improve coding skills",
-  "main": "script.js",
+  "homepage": "https://pshenya.github.io/Simple-Calculator/",
+  "description": "Simple calculator on JS",
+  "main": "src/script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Pavel Pshenyshniuk",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
 }
