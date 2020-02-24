@@ -1,0 +1,13 @@
+{
+  "name": "simple-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "",
+  "description": "Simple calculator to improve coding skills",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel Pshenyshniuk",
+  "license": "ISC"
+}
